@@ -1,0 +1,40 @@
+# Vcard configuration file
+##
+### param "bgimage" - Background Image or Background Photo
+### param "photo" - Small circle photo
+### param "name" - Your Name
+### param "typed" - Typed text under Name
+### param "social" - Social Links, icon class name you can find here https://fontawesome.com/icons?d=gallery&s=brands&m=free
+### param "buttons" - Buttons, icon class you can find here https://ionicons.com/v4/
+
+main:
+  bgimage: "assets/img/ProfilePic.jpg"
+  photo: ""
+  name: "Shari Tamashiro"
+  typed:
+    - text: "Project Analyst/Event Planner"
+    - text: "Always Moving (at the speed of thought)"
+    - text: "Running Enthusiast"
+  social:
+    - title: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/sharitamashiro/"
+    - title: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://instagram.com/shariikt"
+    - title: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/"
+    # - title: "Spotify"
+    #   icon: "fab fa-spotify"
+    #   url: "https://www.spotify.com/"
+    # - title: "Stackoverflow"
+    #   icon: "fab fa-stack-overflow"
+    #   url: "https://stackoverflow.com/"
+  buttons:
+    - title: "Download CV"
+      icon: ""
+      url: "https://drive.google.com/"
+    - title: "Contact Me"
+      icon: ""
+      url: "mailto:tamashiroshari@gmail.com"

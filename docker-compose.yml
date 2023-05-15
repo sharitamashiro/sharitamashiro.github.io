@@ -1,0 +1,16 @@
+version: "3"
+services:
+    jekyll-serve:
+        # image: jekyll/jekyll:3.8
+        image: bretfisher/jekyll-serve
+        container_name: jekyll-serve
+        # command: jekyll serve --host 0.0.0.0 --no-watch --force_polling --verbose
+        # command: bundle exec jekyll s --force_polling -H 0.0.0.0 -P 4000 --livereload
+        volumes:
+            # - ./vendor/bundle:/usr/local/bundle
+            # - .:/srv/jekyll
+            - .:/site
+        # environment:
+            # - JEKYLL_ENV=development
+        ports:
+            - 4000:4000
