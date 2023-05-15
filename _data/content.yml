@@ -12,14 +12,14 @@ about:
         </p>
         "
   list:
-    - label: "Location"
-      value: "Honolulu, Hawaii"
+    - label: "Life Status"
+      value: "Under Construction"
 
-    - label: "Pets"
-      value: "Cat"
-
-    # - label: "Allergies"
+    # - label: "Pets"
     #   value: "Cat"
+
+  # - label: "Allergies"
+  #   value: "Cat"
 
  
 
@@ -108,20 +108,20 @@ about:
 #       button_text: "Buy Pro"
 
 ### Facts [ facts ]
-facts:
-  title: "Fun Fact"
-  items:
-    - icon: "disc"
-      name: "80 Albumes Listened"
+# facts:
+#   title: "Fun Fact"
+#   items:
+#     - icon: "disc"
+#       name: "80 Albumes Listened"
 
-    - icon: "trophy"
-      name: "15 Awards Won"
+#     - icon: "trophy"
+#       name: "15 Awards Won"
 
-    - icon: "coffee"
-      name: "1 000 Cups of coffee"
+#     - icon: "coffee"
+#       name: "1 000 Cups of coffee"
 
-    - icon: "flag"
-      name: "10 Countries Visited"
+#     - icon: "flag"
+#       name: "10 Countries Visited"
 
 ### Clients [ clients ]
 # clients:
@@ -168,14 +168,38 @@ resume:
       - year: "2021 - Present"
         role: "Project Analyst"
         company: "Central Pacific Bank"
-        text: "Right hand person to Executive Vice President"
+        text: "
+          <ul>
+            <li>
+              Analyze data and generate reports for Executive Management to evaluate sales performance.
+            </li>
+            <li>
+              Provide recommendations to grow business opportunities through market research and data analysis.
+            </li>
+            <li>
+              Collaborate with cross-functional teams to achieve project goals in a timely manner and meet expectations of
+Executive Management.
+            </li>
+            <li>
+              Lead aspects of projects including planning, operations, project documentation, and client engagement.
+            </li>
+            <li>
+              Provide exceptional customer service and maintain positive relationships with clients.
+            </li>
+            <li>
+              Manage and prioritize schedule of multiple Executive Vice Presidents to ensure efforts are focused on strategic
+growth and development.
+            </li>
+          </ul>
+        "
+
         active: 1
         h_line: 1
 
       - year: "2017 - 2020"
         role: "Site Admin"
         company: "FAST Enterprises"
-        text: "Supported our Hawaii team of 20+ FASTies to ensure successful project implementation"
+        text: "Supported FAST Hawaii Team and clients to ensure successful project implementation"
         active: 0
         h_line: 1
 
@@ -192,144 +216,142 @@ resume:
       - year: "2017"
         institution: "University of Hawaii at Manoa"
         city: "Honolulu, HI"
-        text: "BBA in Finance"
+        text: "Bachelor of Business Administration, Finance"
         h_line: 1
 
-      # - year: "2005 - 2006"
-      #   institution: "Programming Course"
-      #   city: "Paris"
-      #   text: "Coursework - Git, WordPress, Javascript, iOS, Android."
+      # - year: "June 2020"
+      #   institution: "Udacity"
+      #   text: "Marketing Analytics Nanodegree"
       #   h_line: 1
 
-      # - year: "2004 - 2005"
-      #   institution: "Web Design Course"
-      #   city: "London"
-      #   text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      # - year: "December 2020"
+      #   institution: "Udacity"
+      #   text: "Business Analytics Nanodegree"
       #   h_line: 0
 
 ### Skills [ skills ]
-skills:
-  title: "My Skills"
-  columns:
-    - type: "default" #skills progress type - default, dotted, circles, list
-      title: "Design"
-      icon: "easel"
-      items:
-        - label: "Web Design"
-          value: "90" #0-100 progress in %
+# skills:
+#   title: "My Skills"
+#   columns:
+#     - type: "default" #skills progress type - default, dotted, circles, list
+#       title: "Design"
+#       icon: "easel"
+#       items:
+#         - label: "Web Design"
+#           value: "90" #0-100 progress in %
 
-        - label: "Write Music"
-          value: "65" #0-100 progress in %
+#         - label: "Write Music"
+#           value: "65" #0-100 progress in %
 
-        - label: "Photoshop"
-          value: "75" #0-100 progress in %
+#         - label: "Photoshop"
+#           value: "75" #0-100 progress in %
 
-        - label: "Graphic Design"
-          value: "85" #0-100 progress in %
+#         - label: "Graphic Design"
+#           value: "85" #0-100 progress in %
 
-    - type: "dotted" #skills progress type - default, dotted, circles, list
-      title: "Languages"
-      icon: "flag"
-      items:
-        - label: "English"
-          value: "90" #0-100 progress in %
+#     - type: "dotted" #skills progress type - default, dotted, circles, list
+#       title: "Languages"
+#       icon: "flag"
+#       items:
+#         - label: "English"
+#           value: "90" #0-100 progress in %
 
-        - label: "German"
-          value: "60" #0-100 progress in %
+#         - label: "German"
+#           value: "60" #0-100 progress in %
 
-        - label: "Italian"
-          value: "30" #0-100 progress in %
+#         - label: "Italian"
+#           value: "30" #0-100 progress in %
 
-        - label: "French"
-          value: "70" #0-100 progress in %
+#         - label: "French"
+#           value: "70" #0-100 progress in %
 
-    - type: "circles" #skills progress type - default, dotted, circles, list
-      title: "Coding"
-      icon: "code"
-      items:
-        - label: "WordPress"
-          value: "90" #0-100 progress in %
+#     - type: "circles" #skills progress type - default, dotted, circles, list
+#       title: "Coding"
+#       icon: "code"
+#       items:
+#         - label: "WordPress"
+#           value: "90" #0-100 progress in %
 
-        - label: "PHP / MYSQL"
-          value: "75" #0-100 progress in %
+#         - label: "PHP / MYSQL"
+#           value: "75" #0-100 progress in %
 
-        - label: "Angular / JavaScript"
-          value: "85" #0-100 progress in %
+#         - label: "Angular / JavaScript"
+#           value: "85" #0-100 progress in %
 
-        - label: "HTML / CSS"
-          value: "95" #0-100 progress in %
+#         - label: "HTML / CSS"
+#           value: "95" #0-100 progress in %
 
-    - type: "list" #skills progress type - default, dotted, circles, list
-      title: "Knowledge"
-      icon: "android-list"
-      items:
-        - label: "Website hosting"
-          value: "" #0-100 progress in %
+#     - type: "list" #skills progress type - default, dotted, circles, list
+#       title: "Knowledge"
+#       icon: "android-list"
+#       items:
+#         - label: "Website hosting"
+#           value: "" #0-100 progress in %
 
-        - label: "iOS and android apps"
-          value: "" #0-100 progress in %
+#         - label: "iOS and android apps"
+#           value: "" #0-100 progress in %
 
-        - label: "Create logo design"
-          value: "" #0-100 progress in %
+#         - label: "Create logo design"
+#           value: "" #0-100 progress in %
 
-        - label: "Design for print"
-          value: "" #0-100 progress in %
+#         - label: "Design for print"
+#           value: "" #0-100 progress in %
 
-        - label: "Modern and mobile-ready"
-          value: "" #0-100 progress in %
+#         - label: "Modern and mobile-ready"
+#           value: "" #0-100 progress in %
 
-        - label: "Advertising services include"
-          value: "" #0-100 progress in %
+#         - label: "Advertising services include"
+#           value: "" #0-100 progress in %
 
-        - label: "Graphics and animations"
-          value: "" #0-100 progress in %
+#         - label: "Graphics and animations"
+#           value: "" #0-100 progress in %
 
-        - label: "Search engine marketing"
-          value: "" #0-100 progress in %
+#         - label: "Search engine marketing"
+#           value: "" #0-100 progress in %
 
 ### Portfolio [ portfolio ]
-portfolio:
-  title: "Recent Works"
-  filters:
-    - name: "All"
-      slug: "grid-item"
-      active: 1
+# portfolio:
+#   title: "Recent Works"
+#   filters:
+#     - name: "All"
+#       slug: "grid-item"
+#       active: 1
 
-    - name: "Photo"
-      slug: "photo"
-      active: 0
+#     - name: "Photo"
+#       slug: "photo"
+#       active: 0
 
-    - name: "Video"
-      slug: "video"
-      active: 0
+#     - name: "Video"
+#       slug: "video"
+#       active: 0
 
-    - name: "Music"
-      slug: "music"
-      active: 0
+#     - name: "Music"
+#       slug: "music"
+#       active: 0
 
-    - name: "Design"
-      slug: "design"
-      active: 0
+#     - name: "Design"
+#       slug: "design"
+#       active: 0
 
 ### Blog [ blog ]
-blog:
-  title: "Latest Posts"
+# blog:
+#   title: "Latest Posts"
 
 ### Contact Info List [ contacts-info ]
 contacts_info:
-  title: "Get in Touch"
+  title: "Let's Chat"
   list:
     - label: "Address"
-      value: "California, USA"
+      value: "Honolulu, HI"
 
     - label: "Email"
-      value: "adlard@example.com"
+      value: "tamashiroshari@gmail.com"
 
-    - label: "Phone"
-      value: "+123 654 78900"
+    # - label: "Phone"
+    #   value: "+123 654 78900"
 
-    - label: "Freelance"
-      value: "Available"
+    # - label: "Freelance"
+    #   value: "Available"
 
 ### Contact Form [ contacts-form ]
 contacts_form:

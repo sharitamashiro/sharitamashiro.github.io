@@ -12,12 +12,13 @@ main:
     icon: "person"
     slug: "about"
     sections:
+    #bullet points for the sections on the main page
         - about
-        - services
-        - pricing
-        - facts
-        - clients
-        - testimonials
+        # - services
+        # - pricing
+        # - facts
+        # - clients
+        # - testimonials
   
   #resume card
   - title: "Resume"
@@ -25,26 +26,26 @@ main:
     slug: "resume"
     sections:
         - resume
-        - skills
+        # - skills
   
-  #works card
-  - title: "works"
-    icon: "paintbrush"
-    slug: "works"
-    sections:
-        - portfolio
+  # #works card
+  # - title: "works"
+  #   icon: "paintbrush"
+  #   slug: "works"
+  #   sections:
+  #       - portfolio
   
-  #blog card
-  - title: "Blog"
-    icon: "chatbox-working"
-    slug: "blog"
-    sections:
-        - blog
+  # #blog card
+  # - title: "Blog"
+  #   icon: "chatbox-working"
+  #   slug: "blog"
+  #   sections:
+  #       - blog
   
-  #contact card
-  - title: "Contact"
-    icon: "at"
-    slug: "contacts"
-    sections:
-        - contacts-info
-        - contacts-form
+  # #contact card
+  # - title: "Contact"
+  #   icon: "at"
+  #   slug: "contacts"
+  #   sections:
+  #       - contacts-info
+  #       - contacts-form

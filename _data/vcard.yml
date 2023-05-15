@@ -12,9 +12,9 @@ main:
   photo: ""
   name: "Shari Tamashiro"
   typed:
-    - text: "Project Analyst/Event Planner"
     - text: "Always Moving (at the speed of thought)"
     - text: "Running Enthusiast"
+    - text: "Restless Mind on a Sweet Quest"
   social:
     - title: "LinkedIn"
       icon: "fab fa-linkedin"
@@ -22,9 +22,9 @@ main:
     - title: "Instagram"
       icon: "fab fa-instagram"
       url: "https://instagram.com/shariikt"
-    - title: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/"
+    # - title: "GitHub"
+    #   icon: "fab fa-github"
+    #   url: "https://github.com/"
     # - title: "Spotify"
     #   icon: "fab fa-spotify"
     #   url: "https://www.spotify.com/"
@@ -34,7 +34,7 @@ main:
   buttons:
     - title: "Download CV"
       icon: ""
-      url: "https://drive.google.com/"
+      url: "/assets/files/Resume.pdf"
     - title: "Contact Me"
       icon: ""
       url: "mailto:tamashiroshari@gmail.com"
