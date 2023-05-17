@@ -12,7 +12,7 @@ about:
         </p>
         "
   list:
-    - label: "Life Status"
+    - label: "Website Status"
       value: "Under Construction"
 
     # - label: "Pets"
