@@ -8,7 +8,7 @@ about:
   title: "About Me"
   text: "
         <p>
-          <strong>I’m Shari.</strong><br>Hello! I'm a Project Analyst about to level up to a Business Analyst. Passionate for driving business growth through technical advancements and finding solutions to modernize outdated systems. I love learning and am always up for a challenge! 
+          <strong>Hello!</strong><br>Bridging the tech divide, I'm on a mission to unite people and innovation, making extraordinary things happen.<br><br> I love learning and am always up for a challenge! 
         </p>
         "
   list:
@@ -165,35 +165,17 @@ resume:
     title: "Experience"
     icon: "briefcase"
     items:
-      - year: "2021 - Present"
-        role: "Project Analyst"
+      - year: "June 2023 - Present"
+        role: "Business Analyst - Information Technology"
         company: "Central Pacific Bank"
-        text: "
-          <ul>
-            <li>
-              Analyze data and generate reports for Executive Management to evaluate sales performance.
-            </li>
-            <li>
-              Provide recommendations to grow business opportunities through market research and data analysis.
-            </li>
-            <li>
-              Collaborate with cross-functional teams to achieve project goals in a timely manner and meet expectations of
-Executive Management.
-            </li>
-            <li>
-              Lead aspects of projects including planning, operations, project documentation, and client engagement.
-            </li>
-            <li>
-              Provide exceptional customer service and maintain positive relationships with clients.
-            </li>
-            <li>
-              Manage and prioritize schedule of multiple Executive Vice Presidents to ensure efforts are focused on strategic
-growth and development.
-            </li>
-          </ul>
-        "
-
+       #   text: "Optimize website performance using latest technology."
         active: 1
+        h_line: 1
+      - year: "Jan 2021 - June 2023"
+        role: "Project Analyst - Executive Office"
+        company: "Central Pacific Bank"
+        text: "Focused on providing recommendations to grow business opportunities through market research and data analysis."
+        active: 0
         h_line: 1
 
       - year: "2017 - 2020"
