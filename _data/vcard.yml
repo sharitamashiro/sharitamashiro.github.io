@@ -12,9 +12,10 @@ main:
   photo: ""
   name: "Shari Tamashiro"
   typed:
-    - text: "Always Moving (at the speed of thought)"
-    - text: "Fueled by Coffee and Sugar"
-    - text: "Thoughts on Overdrive"
+    - text: "Analyst → Product Manager"
+    - text: "Event Planner"
+    - text: "Dessert Connoisseur"
+    - text: "Adrenaline Junkie"
   social:
     - title: "LinkedIn"
       icon: "fab fa-linkedin"
@@ -34,7 +35,7 @@ main:
   buttons:
     - title: "Download CV"
       icon: ""
-      url: "/assets/files/Resume.pdf"
+      url: "/assets/files/ShariTamashiro.pdf"
     - title: "Contact Me"
       icon: ""
       url: "mailto:tamashiroshari@gmail.com"

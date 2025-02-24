@@ -6,11 +6,10 @@
 ### About [ about ]
 about:
   title: "About Me"
-  text: "
-        <p>
-          <strong>Hello!</strong><br>Bridging the tech divide &mdash; I'm on a mission to unite people and innovation, making extraordinary things happen.<br><br> I love learning and am always up for a challenge! 
-        </p>
-        "
+  text: 
+        <p> <strong>Hello!</strong><br> I am driven by a passion for people and purpose, bringing together talented individuals to create meaningful, lasting products. </p>
+        <p> My mission is to build solutions that resonate deeply, are sustainably designed, and genuinely improve lives. </p>
+        
   list:
     - label: "Website Status"
       value: "Under Construction"
@@ -153,10 +152,7 @@ about:
 #       subname: "CEO"
 #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-#     - image: "assets/img/man1.jpg"
-#       name: "Helen Floyd"
-#       subname: "Art Director"
-#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
 
 ### Resume [ resume ]
 resume:
@@ -166,9 +162,9 @@ resume:
     icon: "briefcase"
     items:
       - year: "June 2023 - Present"
-        role: "Business Analyst - Information Technology"
+        role: "Common Services Architecture Business Analyst II - CTO"
         company: "Central Pacific Bank"
-       #   text: "Optimize website performance using latest technology."
+        text: "Engages with stakeholders to gather user requirements and translate them into clear, actionable specifications that improve team efficiency and align with business goals. Develops and maintains user documentation to support client onboarding. Leads demos and feedback sessions to address user needs proactively. " 
         active: 1
         h_line: 1
       - year: "Jan 2021 - June 2023"
@@ -181,16 +177,10 @@ resume:
       - year: "2017 - 2020"
         role: "Site Admin"
         company: "FAST Enterprises"
-        text: "Supported FAST Hawaii Team and clients to ensure successful project implementation"
+        text: "Handled procurement activities including building lease negotiation, fulfilling insurance and safety inspection requirements and managing inventory for hardware, software, and equipment."
         active: 0
         h_line: 1
 
-      # - year: "2009 - 2010"
-      #   role: "Senior Developer"
-      #   company: "Abc Inc."
-      #   text: "Optimize website performance using latest technology."
-      #   active: 0
-      #   h_line: 0
   education:
     title: "Education"
     icon: "university"
